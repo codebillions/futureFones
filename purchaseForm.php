@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$connect =mysqli_connect("localhost", "root", "", "futurefones");
+$connect = mysqli_connect("localhost", "root", "", "futurefones");
 
 require("navbar.php");
 

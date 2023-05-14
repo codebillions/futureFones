@@ -229,7 +229,7 @@ table{
 
                                 <div id="phones" class="col-md-4 p-3">
                                     <form action="phone.php?srNO=<?=$row['srNO'] ?>" method="POST">
-                                        <img id="images" type="text" class="mt-5" src="images/<?= $row['images'] ?>"> 
+                                        <img id="images" type="text" class="mt-5" src="images/<?= $row['images']; ?>"> 
                                         <h6 style="color: rgb(190, 187, 7);" class="text-left"><?= $row['phoneName']; ?></h6>
                                         <p class="text-left"><?= $row['destails']; ?></p>
                                         <h5 class="text-left">N<?= number_format($row['price'],2);?></h5>
